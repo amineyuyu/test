@@ -1,0 +1,71 @@
+﻿
+.intro{
+	color : red;
+	border-style: ridge;
+	border-color : blue;
+	border-left : 6px solid red  ;
+	border-top: 2px ridge blue;
+	border-bottom:2px ridge blue;
+	border-right:2px ridge red;
+	border-width : 10px ;
+	font-family:DejaVu Sans Mono, monospace;
+	font-size : 75px;
+	margin: 25px 50px 75px 100px;
+	display: inline-block;
+	padding: 20px;
+	margin-top: 0px;
+	display: grid;
+	place-items: center;
+}
+
+.intro2{
+	color : black;
+	margin-right: 150px;
+	margin-left:50px;
+	border-style: groove;
+	border-color: red;
+	border-left: 6px solid red;
+	border-width: thick;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-size : 30px;
+	display : grid;
+	grid-template-columns: 30% auto;
+}
+body {
+  background-color: lightblue;
+  background-image: url("pic2.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#stats-table th, #stats-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#stats-table th {
+    background-color: red;
+    color: white;
+}
+
+
+#stats-table tr {
+    background-color: #0099ff;
+}
